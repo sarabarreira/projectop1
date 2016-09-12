@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<title>Campanha</title>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<meta name="viewport"  content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body class="body">
+<header class="cabecalho">
+		<img  src="imagens/logo.png">
+		<nav><ul>
+			<li><a href="index.html">Home</a></li>
+			<li class="active"><a  href="media.html">Media</a></li>
+			<li ><a  href="corriculo.html">Curriculo</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul></nav>
+	</header>
+    
+    <main class="main">
+		<div class="conteudo">	
+				<article class="artigo">	
+					<header>
+						<h2><a href="#" rel="bookmark" title="Permalink to this POST TITLE">Fotos</a></h2>
+					</header>
+					
+					<content>
+						 <div class="w3-content w3-section" style="max-width:500px" id="slide">
+
+
+<img class="mySlides w3-animate-fading"   src="imagens/1.png" style="width:100%">
+<img class="mySlides w3-animate-fading"   src="imagens/2.png" style="width:100%">
+<img class="mySlides w3-animate-fading"   src="imagens/3.png" style="width:100%">
+<img class="mySlides w3-animate-fading"   src="imagens/4.png" style="width:100%">
+<img class="mySlides w3-animate-fading"   src="imagens/5.png" style="width:100%">
+
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 9000);
+}
+</script>
+					</content>
+					
+				</article>
+<article class="artigo">	
+					<header>
+						<h2><a href="#" rel="bookmark" title="Permalink to this POST TITLE">video</a></h2>
+					</header>
+					
+					<content>
+                    
+                    <video  width="320" height="240" controls>
+  <source   src="video/entrevista.3gp"  type="video/mp4"> </source>
+  
+
+  Your browser does not support HTML5 video.
+</video>
+
+<p>
+Entrevista Com a Candidata
+</p>
+
+					</content>
+					
+				</article>
+
+		</div>
+			
+			<aside class="top">
+					<article>
+					<h2>Calendario Eleitoral</h2>
+					<p>Decorre entre 28 a 30 de outubro a campanha eleitoral para a Associação de Estudantes. Estão elegíveis duas listas a D e a H, sendo que o ato eleitoral decorrerá dia 1 de novembro, entre as 9 horas e as 17 horas na sala da associação de estudantes</p>
+                    
+				    </article>
+				</aside>
+				
+				<aside class="fim">
+					<article>
+					<h2>Proximos eventos</h2>
+                    <p> 1 Outubro 20h Jantar com os menbros da lista</p>
+                    <p> 3 setembro 23h30 convivio no espaço X</p>
+				    </article>
+				</aside>
+								
+
+				
+	</main>
+    
+    
+    
+    <footer class="Footer">
+		<p>Sara Barreira responsive web design </p>
+	</footer>
+    
+    
+    
+    
+</body>
+</html>
